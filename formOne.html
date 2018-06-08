@@ -24,11 +24,18 @@
                 <input type="text" name="when" required>
                 <legend for="where">Precise geographical coordinates at which the incident occured</legend>
                 <input type="text" name="where" required>
-                <legend for="how">How would you like to respond to this incident? What would you like to say to the driver who hurt your feelings?</legend>
+                <legend for="how">What would you like to say to the driver who hurt your feelings?</legend>
                 <textarea type="text" name="how" required></textarea>
+                <div>
+                <legend for="fault">Whose fault was it?</legend>
+                <input type="radio" name="fault" id="fault1" value="Theirs">
+                <label for="fault1">Theirs</label>
+                <input type="radio" name="fault" id="fault2" value="Not Mine">
+                <label for="fault2">Not Mine</label>
+                </div>
             </fieldset>
-            <button type="submit">Submit</button>
         </form>
+        <a href="formTwo.html"><button>Submit</button></a>
     </main>
 </body>
 
