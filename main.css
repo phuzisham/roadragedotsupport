@@ -37,3 +37,12 @@ height: 60px;
 .start-button:hover {
   border: 10px solid red;
 }
+
+fieldset {
+    border: none;
+}
+
+input, textarea {
+    width: 60%;
+    height: 2.2rem;
+}
