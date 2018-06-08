@@ -2,11 +2,21 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: lightcoral;
+}
+
 fieldset {
     border: none;
 }
 
-input, textarea {
-    width: 60%;
+input[type="text"] {
+    width: 50%;
     height: 2.2rem;
 }
+
+textarea {
+    width: 50%;
+    height: 4rem;
+}
+
