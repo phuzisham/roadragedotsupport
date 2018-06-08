@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.nav-container {
+background: #282826;
+height: 60px;
+}
+
+.header-text {
+  color: white;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  padding: 15px;
+}
+
+.icon {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 45px;
+  margin: 7px 10px;
+}
+
+.start-button {
+  background: red;
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: block;
+  width: 260px;
+}
+
+.start-button:hover {
+  border: 10px solid red;
+}
