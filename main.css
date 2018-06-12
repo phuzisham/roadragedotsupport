@@ -1,6 +1,12 @@
 * {
   box-sizing: border-box;
   margin: 0;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+}
+
+a {
+  text-decoration: none;
 }
 
 .nav-container {
@@ -10,8 +16,6 @@ height: 60px;
 
 .header-text {
   color: white;
-  font-family: sans-serif;
-  letter-spacing: 2px;
   padding: 15px;
 }
 
@@ -38,15 +42,6 @@ height: 60px;
   border: 10px solid red;
 }
 
-fieldset {
-    border: none;
-}
-
-input, textarea {
-    width: 60%;
-    height: 2.2rem;
-}
-
 .zen-text-container {
   height: 100vh;
   width: 100vw;
@@ -59,11 +54,16 @@ input, textarea {
   width: 80%;
   text-align: center;
   padding: 10px;
-  font-family: sans-serif;
   margin: 0 auto;
 }
 
 .giphy-embed {
   margin: 0 auto;
   display: block;
+}
+
+.rageForm {
+  max-width: 600px;
+  margin: auto;
+  margin-top: 60px;
 }

@@ -1,42 +1,39 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
     <title>Roadrage Support</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="index.js"></script>
-</head>
-
-<body>
-    <h1>Roadrage Support</h1>
-    <main>
-        <h2>Please fill out the following form completely to report an instance of road rage.</h2>
-        <form>
-            <fieldset>
-                <legend for="who">What is the other driver's full legal name?</legend>
-                <input type="text" name="who" required>
-                <legend for="license">What is the other driver's license plate number?</legend>
-                <textarea type="text" name="license" required></textarea>
-                <legend for="car">What is the model and color of the other driver's vehicle?</legend>
-                <input type="text" name="car" required>
-                <legend for="driver">Describe, in excessive, explicit detail, the physical characteristics of the other driver.</legend>
-                <textarea type="text" name="driver" required></textarea>
-                <legend for="mental">In 500 words or less, describe the other driver's state of mind, including, but not limited to, their level of stress, their relationship status, their satisfaction with their career, how badly they had to use the restroom?</legend>
-                <textarea type="text" name="mental" required></textarea>
-                <div>
-                <legend for="eyes">What color were their eyes</legend>
-                <input type="radio" name="eyes" id="eyes1" value="Blue">
-                <label for="fault1">Blue</label>
-                <input type="radio" name="eyes" id="eyes2" value="No">
-                <label for="fault2">No</label>
-                </div>
-            </fieldset>
-        </form>
-        <a href="form4.html"><button type="submit">Submit</button></a>
-    </main>
-</body>
-
+  </head>
+  <body>
+    <nav class="nav-container">
+      <a href="index.html"><h1 class="header-text">ROADRAGE.SUPPORT</h1></a>
+      <img src="./images/swearing.png" alt="speach bubble with symbols representing swears" class="icon">
+    </nav>
+    <div class="rageForm">
+      <h2>Please fill out the following form completely to report an instance of road rage.</h2>
+      <br>
+      <form>
+        <legend for="who">What is the other driver's full legal name?</legend>
+        <input type="text" name="who" required>
+        <legend for="license">What is the other driver's license plate number?</legend>
+        <textarea type="text" name="license" required></textarea>
+        <legend for="car">What is the model and color of the other driver's vehicle?</legend>
+        <input type="text" name="car" required>
+        <legend for="driver">Describe, in excessive, explicit detail, the physical characteristics of the other driver.</legend>
+        <textarea type="text" name="driver" required></textarea>
+        <legend for="mental">In 500 words or less, describe the other driver's state of mind, including, but not limited to, their level of stress, their relationship status, their satisfaction with their career, how badly they had to use the restroom?</legend>
+        <textarea type="text" name="mental" required></textarea>
+        <div>
+        <legend for="eyes">What color were their eyes</legend>
+        <input type="radio" name="eyes" id="eyes1" value="Blue">
+        <label for="fault1">Blue</label>
+        <input type="radio" name="eyes" id="eyes2" value="No">
+        <label for="fault2">No</label>
+        </div>
+      </form>
+      <a href="formThree.html"><button type="submit">Submit</button></a>
+    </div>
+  </body>
 </html>
