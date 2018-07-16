@@ -9,15 +9,9 @@ a {
   text-decoration: none;
 }
 
-.rageForm {
-  max-width: 600px;
-  margin: auto;
-  margin-top: 60px;
-}
-
 .nav-container {
-background: #282826;
-height: 60px;
+  background: #282826;
+  height: 60px;
 }
 
 .header-text {
@@ -66,4 +60,10 @@ height: 60px;
 .giphy-embed {
   margin: 0 auto;
   display: block;
+}
+
+.rageForm {
+  max-width: 600px;
+  margin: auto;
+  margin-top: 60px;
 }
